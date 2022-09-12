@@ -1,0 +1,6 @@
+tweets/*
+!tweets/.gitkeep
+
+csv/*
+!csv/.gitkeep
+

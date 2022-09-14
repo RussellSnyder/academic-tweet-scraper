@@ -11,7 +11,7 @@ describe('parseTweetInformationAndWriteToFile', function () {
     before(async function() {
         // empty output file
         await fs.writeFile(MOCK_OUTPUT_FILE, '', (err) => {
-            console.log('error writing to output', err)
+            console.log(`error writing to test output file ${MOCK_OUTPUT_FILE}`, err)
         })
 
         const json = await fs.readFile(MOCK_READ_FILE, 'utf8')

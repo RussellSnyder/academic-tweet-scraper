@@ -1,6 +1,8 @@
 const {promises: fs} = require('fs');
 const path = require('path');
 
+const {getCompanyAndDateFromFile} = require('../src/utils/file')
+
 const parseResponseBodyPrintout = (test) => {
     const responseBodyPrintout = Object.keys(test)[0]
 
@@ -15,8 +17,7 @@ const readAllTests = (allTests) => {
 }  
 
 const getTweetInformationFromFile = async (filePath) => {
-    const fileName = path.basename(filePath, path.extname(filePath))
-    const [company, year] = fileName.split("_")
+    const {company, year} = getCompanyAndDateFromFile(filePath)
 
     const tweet = await fs.readFile(filePath, 'utf8')
     const json = JSON.parse(tweet)

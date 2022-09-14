@@ -1,5 +1,3 @@
-Company, Year, Date, Time, Sender/Account, Tweet Text, Likes, Quotes, Replies, Retweets, Is a Retweet, ReferencedTweets
-
 testCompany, 2015, 31/12/2015, 19:30:02, 682629804055736323, "I had fun with Waste Management but now have to head home. Until next year. #elfonashelf https://t.co/2ORj3XswOi", 11, 0, 1, 3, No, None
 testCompany, 2015, 30/12/2015, 21:08:29, 682292189553127424, "@prettyjuls plastic(1-7) are acceptable &amp; can be commingled in recycle cart. (2/2)", 1, 0, 1, 0, No, replied_to #682280619955597313
 testCompany, 2015, 30/12/2015, 21:08:00, 682292071651217409, "@prettyjuls No, not all items are considered recyclable. Paper, glass, newspaper, cardboard, aluminum, tin &amp; (1/2)", 0, 0, 4, 0, No, replied_to #682280619955597313

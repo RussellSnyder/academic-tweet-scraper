@@ -33,7 +33,7 @@ const formatCsvString = (tweetInformation) => {
       [CSV_COLUMNS.ReferencedTweets]: !tweet.referenced_tweets ? 'None' : tweet.referenced_tweets.map(({id, type}) => `${type} #${id}`).join(", "),
     }))
    
-    csv_string = `${Object.values(CSV_COLUMNS).join(', ')}\n\n`
+    csv_string = ''
   
     desiredDataStructure.forEach(tweet => csv_string += `${Object.values(tweet).join(', ')}\n`)
   

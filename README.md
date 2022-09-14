@@ -2,6 +2,10 @@
 
 ## Scraping the Scraped
 
+### System requirements
+
+Node is required to run this project. https://nodejs.org/en/
+
 ### How to generate output
 
 place the tweets that are desired to be converted into CSV into the `input_tweets` folder.

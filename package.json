@@ -1,0 +1,25 @@
+{
+  "name": "academic-tweet-scraper",
+  "version": "1.0.0",
+  "description": "a simple package for formatting Dave's tweet library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussellSnyder/academic-tweet-scraper.git"
+  },
+  "author": "Russell Snyder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RussellSnyder/academic-tweet-scraper/issues"
+  },
+  "homepage": "https://github.com/RussellSnyder/academic-tweet-scraper#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}

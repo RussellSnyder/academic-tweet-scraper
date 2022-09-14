@@ -1,6 +1,6 @@
-tweets/*
-!tweets/.gitkeep
+input_tweets/*
+!input_tweets/.gitkeep
 
-csv/*
-!csv/.gitkeep
+output_csv/*
+!output_csv/.gitkeep
 
